@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/home"
+            android:title="الصفحة الشخصية" />
+
+
+
+        <item
+            android:id="@+id/nav_tools3"
+            android:icon="@drawable/logout"
+            android:title="تسجيل الخروج" />
+    </group>
+
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/diagnostic"
+                android:title="الاختبارات التشخيصية" />
+
+            <item
+                android:id="@+id/nav_send2"
+                android:icon="@drawable/high_risk"
+                android:title="من الاكثر عرضه للاصابه" />
+        </menu>
+    </item>
+
+</menu>

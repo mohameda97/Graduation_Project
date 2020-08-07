@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <Button
+        android:id="@+id/btNewDiagnose"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/colorPrimaryBlue"
+        android:textColor="#ffffff"
+        android:text="Diagnose Test" />
+
+
+
+    <Button
+        android:id="@+id/btNewXray"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/colorPrimaryBlue"
+        android:textColor="#ffffff"
+        android:text="Xray Test" />
+    <Button
+        android:id="@+id/btNewRisk"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/colorPrimaryBlue"
+        android:textColor="#ffffff"
+        android:text="Risk Test" />
+    <Button
+        android:id="@+id/btReturntoExamination"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/colorPrimaryBlue"
+        android:textColor="#ffffff"
+        android:text="Return" />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".new_amin.updateUserInfo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Have you ever had breast cancer or received radiation therapy to your chest ?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/true_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_alignParentEnd="true"
+                android:text="True"/>
+
+            <Button
+                android:id="@+id/false_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/true_0"
+                android:text="false"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="Have you ever been tested positive for breast cancer genes BRCA1 or BRCA2 ? "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/true_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_alignParentEnd="true"
+                android:text="True"/>
+
+            <Button
+                android:id="@+id/false_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/true_1"
+                android:text="false"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="Are you greater than 35?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/true_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_alignParentEnd="true"
+                android:text="True"/>
+
+            <Button
+                android:id="@+id/false_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/true_2"
+                android:text="false"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="At what age did your menstrual periods start ? "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/unknown_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_alignParentEnd="true"
+                android:text="unknown"/>
+
+            <Button
+                android:id="@+id/answer_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/unknown_0"
+                android:text="7 to 11"/>
+
+            <Button
+                android:id="@+id/answer_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/answer_01"
+                android:text="12 to 13"/>
+
+            <Button
+                android:id="@+id/answer_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/answer_02"
+                android:layout_below="@id/answer_01"
+                android:layout_alignParentEnd="true"
+                android:text="greater than 14"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="What was your age when you had your first baby ?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/unknown_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_alignParentEnd="true"
+                android:text="unknown"/>
+
+            <Button
+                android:id="@+id/answer_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/unknown_1"
+                android:text="no births"/>
+
+            <Button
+                android:id="@+id/answer_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/answer_11"
+                android:text="less 20"/>
+
+            <Button
+                android:id="@+id/answer_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_below="@id/unknown_1"
+                android:layout_alignParentEnd="true"
+                android:text="20 to 24"/>
+
+            <Button
+                android:id="@+id/answer_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_below="@id/unknown_1"
+                android:layout_toStartOf="@+id/answer_13"
+                android:text="25 to 29"/>
+
+            <Button
+                android:id="@+id/answer_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_below="@id/unknown_1"
+                android:layout_toStartOf="@+id/answer_14"
+                android:text="less  35"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="How many of your blood relatives have had breast cancer ? "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/no_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_alignParentEnd="true"
+                android:text="No"/>
+
+            <Button
+                android:id="@+id/one_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/no_0"
+                android:text="One"/>
+
+            <Button
+                android:id="@+id/greater_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/one_0"
+                android:text="Greater than one"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="Have you ever had a breast biopsy ? "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/no_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_alignParentEnd="true"
+                android:text="no"/>
+
+            <Button
+                android:id="@+id/yes_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/no_1"
+                android:text="yes"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="If so, how many times ? "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/one_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_alignParentEnd="true"
+                android:text="one"/>
+
+            <Button
+                android:id="@+id/greater_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/one_2"
+                android:text="greater than one"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="Did any of them show a typical hyperplasia in  the report ? "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/no_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_alignParentEnd="true"
+                android:text="no"/>
+
+            <Button
+                android:id="@+id/yes_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:layout_toStartOf="@+id/no_2"
+                android:text="yes"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="Result: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/riskTestResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:background="@drawable/edit_color_draw"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btRiskTest"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:textColor="#ffffff"
+                android:text="Test" />
+            <Button
+                android:id="@+id/btReturnRiskTest"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/colorPrimaryBlue"
+                android:textColor="#ffffff"
+                android:text="Return" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

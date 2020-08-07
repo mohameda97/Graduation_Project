@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">واعية</string>
+
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Breast cancer</string>
+    <string name="nav_header_subtitle">Breast_cancer@android.app</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="disclaimer_text">BiREXA© is self-breast examination guide intended to help women do breast examination.\n\nBiREXA© is not a substitute for professional medical consultation and is not offering diagonsis or treatment of any illness.</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_specialist_doctors">specialist_doctors</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="near_by">Near By</string>
+    <string name="title_activity_mammogram_labs">mammogram_labs</string>
+    <string name="paragraph1">1.دفع قيمة قسيمة الحجز فقط مقابل 1500 جنيه مصرى .\n\n2. سجل كود القسيمة عند اقرب معمل مسجل لدينا تحت بند أقرب معمل ماموجرام.\n\n3. استلم نتيجة الماموجرام من خلال التطبيق او من خلال المعمل لاستلام نسخه ورقيه.</string>
+    <string name="high_risk_text">Mother or sister with breast <![CDATA[cancer < 50]]> years.\nRelatives with ovarian cancer.\nPresence of Breast cancer gene BRCA1 and BRCA2.\nHigher risk if age is above 50.\nEarly menstrual period before 12.\nLate menopause after 55.\nNo pregnancy or late delivery after 30.\nPhysical inactivity increases breast cancer risk.\nBeing overweight increases breast cancer risk.\nUsing combination hormone therapy.\nPrevious history of breast cancer.\nPrevious treatment using radiation therapy.\nDrinking alcohol.</string>
+    <string name="high_risk_header">من الاكثر عرضه للاصابه</string>
+</resources>

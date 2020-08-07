@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".new_amin.updateUserInfo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+            <TextView
+                android:text="Texture_worst : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+            <EditText
+                android:inputType="numberDecimal"
+                android:id="@+id/texture_worst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/edit_color_draw"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:text="radius_se : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center" />
+            <EditText
+                android:id="@+id/radius_se"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/edit_color_draw"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:text="radius_worst : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center" />
+            <EditText
+                android:inputType="numberDecimal"
+                android:id="@+id/radius_worst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/edit_color_draw"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:text="area_se : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center" />
+            <EditText
+                android:inputType="numberDecimal"
+                android:id="@+id/area_se"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/edit_color_draw"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:text="area_worst : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center" />
+            <EditText
+                android:inputType="numberDecimal"
+                android:id="@+id/area_worst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/edit_color_draw"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:text="concave_points_mean : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center" />
+            <EditText
+
+                android:inputType="numberDecimal"
+                android:id="@+id/concave_points_mean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/edit_color_draw"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:text="concave_points_worst : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center" />
+            <EditText
+                android:inputType="numberDecimal"
+                android:id="@+id/concave_points_worst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/edit_color_draw"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:text="Result : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/diagnoseTestResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:background="@drawable/edit_color_draw"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btDiagnoseTest"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/colorPrimaryBlue"
+                    android:textColor="#ffffff"
+                    android:text="Test" />
+                <Button
+                    android:id="@+id/btReturnDiagnoseTest"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/colorPrimaryBlue"
+                    android:textColor="#ffffff"
+                    android:text="Return" />
+
+            </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Who_is_at_high_risk" >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        tools:context=".Who_is_at_high_risk">
+
+        <TextView
+            android:id="@+id/message2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="فحص نسيج الثدى"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="فحص نسيج الثدى هو اختيار للتأكد من سرطان الثدى .\nنسيج صغير جدا يؤخذ من الثدى لطبيب الانسجة للفحص تحت الميكروسكوب .\nقبل هذا الاجراء تؤخذ حقنة لتخدير الثدى .\nالتقرير الخاص بذلك الاجراء تستغرق اسبوع لتكتمل.\nفقط الفحص النسيجى للثدى يحدد اذا كان سرطان أم لا ."
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/message3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="أنواع الفحص النسيجي للثدى"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/message4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text=" علم الخلايا الطموح إبرة غرامة FNAC : \nيتم FNAC إذا كان من السهل الوصول إلى كتلة أو كان السائل شغل مقطوع الكيسي.\nيتم ذلك عن طريق رش السائل باستخدام إبرة صغيرة.\nقد يستخدم الطبيب الموجات فوق الصوتية ليكون أكثر دقة. \nخزعة الإبرة الأساسية CNB :  \nينطوي على تناول كمية صغيرة من الأنسجة باستخدام أكبر إبرة الأساسية.\nيؤدي تحت التخدير الموضعي. \nخزعة جراحية أو خزعة مفتوحة : \nوعادة ما يتم ذلك كعملية تحت عام تخدير.\nيقوم الجراح بعمل قطع من بوصة إلى بوصتين على الثدي.\nهذا هو الحصول على جزء صغير من كتلة الثدي.\n\n\n"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+</ScrollView>

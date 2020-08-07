@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    tools:context=".Who_is_at_high_risk">
+
+    <TextView
+        android:id="@+id/message2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="تصوير الثدي بالرنين المغناطيسي"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="تصوير الثدي بالرنين المغناطيسي يستخدم موجات مغناطيسية لإظهار صور مفصلة للتركيب النسيجي داخل الثدي .\nيستخدم لمزيد من التقييم لبعض الحالات التي تبدو شاذة او غير طبيعية فى الماموجرام. \nتصوير الثدي بالرنين المغناطيسي لا تستخدم اشعة اكس و ليس مؤلم اطلاقا .\nعلى الرغم أن تصوير الثدي بالرنين المغناطيسي يمكن أن ترى الخلايا المسرطنة التى لا يمكن رؤيتها بالماموجرام و لكن يمكن ان تكون هذه الرؤية خلايا ورم حميدة.\nلذلك لا ينصح باستخدام تصوير الثدي بالرنين المغناطيسي في الفحص الروتيني للثدي.\nانه مفيد للنساء اللواتي لديهم معدل عال للاصابة بسرطان الثدى .\nيستخدم لتقييم مدى انتشار الخلايا المسرطنة فى التشخيصات التالية.\nو مفيد أيضا فى المتابعة بعد العلاج من سرطان الثدى. \nالذين يخافون من الأماكن المغلقة قد تتطلب مهدئ بسيط قبل تصوير الثدي بالرنين المغناطيسى.\nالمجوهرات و بعض الاكسسوارات المعدنية قد تتداخل مع الرنين المغناطيسى لذا يجب عدم دخول غرفة الرنين بأى من هذه الاشياء.\n\n\n"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </ScrollView>
+
+
+</LinearLayout>

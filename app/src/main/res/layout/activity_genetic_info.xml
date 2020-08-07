@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Who_is_at_high_risk" >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        tools:context=".Who_is_at_high_risk">
+
+        <TextView
+            android:id="@+id/message2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="اختبار وراثي"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="تسبب جينات BRCA1 و BRCA2 و PALB2 سرطان الثدي الوراثي.\nهذه موروثة عند الولادة من الأب أو الأم. \nلكن السرطان يتطور لاحقا في الحياة.\nالنساء مع هذه الطفرة في خطر كبير.\nلديهم 55 إلى 60 ٪ فرصة أعلى.\nلديهم أيضا فرصة أكبر لسرطان المبيض.\nالرجال الذين يعانون من هذه الطفرات معرضون لخطر الإصابة بسرطان الثدي وسرطان البروستاتا.\nيجب أن يحفز الأشخاص الذين ثبتت إصابتهم بالجينات المذكورة أعلاه أقاربهم على اختبار الجينات.\nقد يكون لدى الأقارب المقربين أيضًا طفرات جينية.\n\n\n"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+</ScrollView>

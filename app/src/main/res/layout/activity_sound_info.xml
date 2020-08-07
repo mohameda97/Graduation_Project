@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Who_is_at_high_risk" >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        tools:context=".Who_is_at_high_risk">
+
+        <TextView
+            android:id="@+id/message2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="الاشعه فوق الصوتية"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="تستخدم الموجات فوق الصوتية للثدي أو الموجات فوق الصوتية موجات صوتية متخصصة لإنشاء صورة لمحتويات الثدي.\nيتم استخدامه للتحقق من نتائج غير طبيعية من تصوير الثدي بالأشعة السينية.\nأنها ليست مؤلمة ولا تستخدم الأشعة السينية ،\nالموجات فوق الصوتية هي أفضل طريقة لمعرفة ما إذا كانت العيوب صلبة أو مملوءة بالسوائل.\nولكن لا يمكن تحديد ما إذا كانت كتلة الثدي سرطانية.\nيمكن للأطباء استخدام الموجات فوق الصوتية لتوجيه إبرة الخزعة بدقة.\n\n\n"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+</ScrollView>

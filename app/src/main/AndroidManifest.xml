@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.breast_app">
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icooon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.example.breast_app.foot_steps"/>
+        <activity android:name="com.example.breast_app.YoutubeVideo" />
+        <activity android:name="com.example.breast_app.ArticleDisplay" />
+        <activity android:name="com.example.breast_app.sound_info" />
+        <activity android:name="com.example.breast_app.genetic_info" />
+        <activity android:name="com.example.breast_app.biopsy_info" />
+        <activity android:name="com.example.breast_app.breast_info" />
+        <activity android:name="com.example.breast_app.mammo_info" />
+        <activity android:name="com.example.breast_app.Diagnostic_Tests" />
+        <activity android:name="com.example.breast_app.Who_is_at_high_risk" />
+        <activity android:name="com.example.breast_app.reports" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name="com.example.breast_app.self_mid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.breast_app.self_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.breast_app.self"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.breast_app.disclaimer" />
+        <activity
+            android:name="com.example.breast_app.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.example.breast_app.new_amin.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.example.breast_app.NotificationIntentService"
+            android:exported="false" />
+
+        <receiver android:name="com.example.breast_app.NotificationReciver" />
+
+
+
+        <activity android:name="com.example.breast_app.new_amin.RiskHistoryList"/>
+        <activity android:name="com.example.breast_app.new_amin.XrayHistoryList" />
+        <activity android:name="com.example.breast_app.new_amin.DiagnoseHistoryList" />
+        <activity android:name="com.example.breast_app.new_amin.RiskHistory" />
+        <activity android:name="com.example.breast_app.new_amin.XrayHistory" />
+        <activity android:name="com.example.breast_app.new_amin.DiagnoseHistory" />
+        <activity android:name="com.example.breast_app.new_amin.RiskTest" />
+        <activity android:name="com.example.breast_app.new_amin.XrayTest" />
+        <activity android:name="com.example.breast_app.new_amin.DiagnoseTest" />
+        <activity android:name="com.example.breast_app.new_amin.HistoryOfExamination" />
+        <activity android:name="com.example.breast_app.new_amin.NewExamination" />
+        <activity android:name="com.example.breast_app.new_amin.ResetPassword" />
+        <activity android:name="com.example.breast_app.new_amin.phoneVerfication" />
+        <activity android:name="com.example.breast_app.new_amin.Profile" />
+        <activity android:name="com.example.breast_app.new_amin.updateUserInfo" />
+        <activity android:name="com.example.breast_app.new_amin.SignUp" />
+    </application>
+
+</manifest>

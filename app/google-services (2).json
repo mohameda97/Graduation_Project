@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "722077095317",
+    "firebase_url": "https://hopebreastcancer.firebaseio.com",
+    "project_id": "hopebreastcancer",
+    "storage_bucket": "hopebreastcancer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722077095317:android:ec3689af7ea1cc8447d29c",
+        "android_client_info": {
+          "package_name": "com.example.breastapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722077095317-nkrv6oc4k0inikmtmgi26mr1t1snu45i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.breastapp",
+            "certificate_hash": "82984a60c3d5de7827c6cbdd0bfdd8c4e672a7ad"
+          }
+        },
+        {
+          "client_id": "722077095317-1kl8i02fcvt6b829rgjvhjsrlv8vrtf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK57wEQoho4lL207X9aPyS90HuMuk3ZR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722077095317-1kl8i02fcvt6b829rgjvhjsrlv8vrtf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722077095317:android:3b30f831fd2a335b47d29c",
+        "android_client_info": {
+          "package_name": "com.example.hopebreastcancer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722077095317-oom6a7tmt2g5jhs1m92vrtlm6nuqv5dq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hopebreastcancer",
+            "certificate_hash": "82984a60c3d5de7827c6cbdd0bfdd8c4e672a7ad"
+          }
+        },
+        {
+          "client_id": "722077095317-1kl8i02fcvt6b829rgjvhjsrlv8vrtf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK57wEQoho4lL207X9aPyS90HuMuk3ZR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722077095317-1kl8i02fcvt6b829rgjvhjsrlv8vrtf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
