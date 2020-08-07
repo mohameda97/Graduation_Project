@@ -11,7 +11,7 @@ import com.google.android.youtube.player.YouTubePlayerView;
 public class YoutubeVideo extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
     YouTubePlayerView myPlayerView;
-    public static final String appKey = "\n" + "AIzaSyCzSx_q-vJ2QymYVo53fIUpNtUFIFHmgFY\n";
+    public static final String appKey = "";
     public String[] videoLinks= {"k_crw1oowyc", "qrLVoKbYe7s", "W8yw-Pzp5do", "9nqoNscszAQ"};
 
     @Override
