@@ -10,7 +10,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class Security {
     private static final String ALGORITHM = "AES";
-    private static final String KEY = "5546ABCDEFGHA123";
+    private static final String KEY = "";
 
 
     public static String encrypt(String value) throws Exception
